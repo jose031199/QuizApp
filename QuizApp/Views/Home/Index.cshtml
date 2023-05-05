@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Quiz App</h1>
+    <p>Get fun while you answer different questions</p>
+
+    <div class="accordion accordion-flush" id="quizappRules">
+        <div class="accordion-item">
+            <h2 class="accordion-header text-capitalize" id="headingOne" style="font-weight:bold;">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rule1" aria-expanded="false" aria-controls="rule1">
+                    How to play?
+                </button>
+            </h2>
+
+            <div class="accordion-collapse collapse" id="rule1" aria-labelledby="headingOne" data-bs-parent="quizappRules">
+                <div class="accordion-body">
+                    <p class="text-center">Go to the Quiz navbar option and select category and difficulty mode.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header text-capitalize" id="headingTwo" style="font-weight:bold;">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rule2" aria-expanded="false" aria-controls="rule2">
+                    How many questions are for quiz?
+                </button>
+            </h2>
+
+            <div class="accordion-collapse collapse" id="rule2" aria-labelledby="headingTwo" data-bs-parent="quizappRules">
+                <div class="accordion-body">
+                    <p class="text-center">There are 10 questions for each quiz to answer.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header text-capitalize" id="headingThree" style="font-weight:bold;">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rule3" aria-expanded="false" aria-controls="rule3">
+                    Is there any difficulty of the quiz?
+                </button>
+            </h2>
+
+            <div class="accordion-collapse collapse" id="rule3" aria-labelledby="headingThree" data-bs-parent="quizappRules">
+                <div class="accordion-body">
+                    <p class="text-center">You can select the difficulty of the quiz once you're in the do quiz ranking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

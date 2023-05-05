@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "LogIn";
+}
+@model Users;
+
+<h1>LogIn</h1>
+<form class="bg-light border-light row-cols-6 p-2 justify-content-center">
+    <div class="col-auto mb-3">
+        <label class="form-label" for="txtUsername">Username: </label>
+        <input type="text" placeholder="Username" class="form-control" id="txtUsername" required/>
+    </div>
+
+    <div class="col-auto mb-3">
+        <label class="form-label" for="txtUsername">Password: </label>
+        <input type="password" placeholder="******" class="form-control" id="txtPassword" required/>
+    </div>
+
+    <div class="btn-group-vertical">
+        <button class="btn btn-success p-2">Login</button>
+        <a class="text-info text-center" style="font-size:14px; cursor:pointer;" asp-controller="Login" asp-action="CreateUser">Dont'have user? Create one here</a>
+    </div>
+</form>
+
